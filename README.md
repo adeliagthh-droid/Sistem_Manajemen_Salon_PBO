@@ -28,7 +28,8 @@ Package pertama adalah com.mycompany.sistem_manajemen_salon_pbo yang berisi kela
 
 Package kedua adalah model yang berisi empat class sebagai cetak biru data, yaitu Orang, Pelanggan, Layanan, dan Reservasi. Keempat class ini hanya berisi atribut, constructor, serta method getter dan setter, tanpa berisi logika menu sama sekali. Karena berada pada package yang berbeda, kelas utama memanggil class-class tersebut menggunakan perintah import.
 
-(screenshot struktur package)
+<img width="400" alt="WhatsApp Image 2026-09-21 at 20 43 20" src="https://github.com/user-attachments/assets/989c6836-ea40-4f71-bed4-59d73699ec9a" />
+
 
 Relasi inheritance pada program ini terdapat antara class Orang dan class Pelanggan. Class Orang berperan sebagai super-class atau class induk, sedangkan class Pelanggan berperan sebagai sub-class atau class turunan. Hubungan ini dapat dibaca sebagai "Pelanggan adalah seorang Orang", yang merupakan ciri dari relasi inheritance yang tepat.
 
